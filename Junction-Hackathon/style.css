@@ -67,6 +67,8 @@ header nav {
   transform: translate(-50%,-50%);
   z-index: 3;
  background-color: black;
+  border: solid 2px white;
+  border-radius: 10px;
 }
 .menuLinks ul{
   width: 50vw;
@@ -82,7 +84,6 @@ header nav {
     width: 70vw;
   }
 }
-
 
 .menuLinks ul li{
   list-style: none;
@@ -419,7 +420,7 @@ header nav {
 }
 @media screen and (max-width:768px) {
     .partFour form{
-        grid-template-columns: 90%;
+        grid-template-columns: 100%;
         align-self: center;
         margin-left: 5%;
     }
