@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./font-awesome/font-awesome-4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Aclonica&family=Acme&family=Alkatra:wght@600&family=Caprasimo&family=Space+Mono:ital,wght@0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo" onclick="window.scrollTo(0,10000);">Junction</div>
+        <i class="menu fa fa-bars fa-2x" aria-hidden="true"></i>
+      </nav>
+    </header>
+    <div class="menuLinks hidden">
+      <ul>
+        <li><a href="#part2">About Us</a></li>
+        <li><a href="#part3">Junction Algeria</a> </li>
+        <li><a href="#part4">Participation</a> </li>
+      </ul>
+    </div>
+    <div class="partOne">
+      <div class="content">
+        <h1>
+          Hack the <br />
+          future
+        </h1>
+        <h3>
+          Junction organizes a wide variety of tech events around the year
+          around the world, as well as online: this is what we're all about.
+          <br />
+          And, we are non-profit.
+        </h3>
+      </div>
+      <div class="social">
+        <button id="btn" class="twitter">
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+        </button>
+        <button class="instagram">
+            <a href="https://www.instagram.com/phoenix_esgee/" target="_blank" rel="noopener noreferrer">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+
+            </a>
+        </button>
+        <button id="btn" class="facebook">
+          <i class="fa fa-facebook fa-align-center" aria-hidden="true"></i>
+        </button>
+      </div>
+    </div>
+
+    <div id="part2" class="partTwo">
+      <h1>About our event</h1>
+      <div class="stats">
+        <h2>8 <br />Years</h2>
+        <h2>+2500 <br />Projects</h2>
+        <h2>+20K <br />Participants</h2>
+        <h2>
+          10 <br />
+          Nationalities
+        </h2>
+      </div>
+      <h1>All over the world !</h1>
+    </div>
+    <div id="part3" class="partThree">
+      <h1>Junction Algeria</h1>
+      <div class="detailsWrapper">
+        <h3>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+          optio eligendi praesentium atque minima asperiores quas! Odit quaerat
+          ea expedita, saepe molestiae eveniet exercitationem temporibus nulla
+          quia quidem, tempore inventore.
+        </h3>
+        <div class="card">
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="card-inner"><img src="0.jpg" alt="" /></div>
+        </div>
+      </div>
+      <button id="btn">Planning of the event</button>
+    </div>
+    <div id="part4" class="partFour">
+      <h1>
+        Intrested in <br />
+        participating?
+      </h1>
+      <form>
+        <input type="text" name="firstname" placeholder="First Name"/>
+        <input type="text" name="lastname" placeholder="Last Name"/>
+        <input type="email" name="email" placeholder="Email" />
+        <input type="text" name="teamname" placeholder="Team Name"/>
+        <input type="text" name="message" placeholder="Type a message"/>
+        <!-- <div class="side">
+        </div> -->
+        <input type="tel" name="phone" placeholder="Phone"/>
+        <input type="submit" id="sub" value="Send">
+      </form>
+    </div>
+    <footer>
+      <div class="logo" onclick="window.scrollTo(0,0);">Junction</div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
