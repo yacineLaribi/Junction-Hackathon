@@ -8,6 +8,7 @@
       rel="stylesheet"
       href="./font-awesome/font-awesome-4.7.0/css/font-awesome.min.css"
     />
+    <link rel="shortcut icon" href="junction.png" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -27,8 +28,8 @@
     <div class="menuLinks hidden">
       <ul>
         <li><a href="#part2">About Us</a></li>
-        <li><a href="#part3">Junction Algeria</a> </li>
-        <li><a href="#part4">Participation</a> </li>
+        <li><a href="#part3">Junction Algeria</a></li>
+        <li><a href="#part4">Participation</a></li>
       </ul>
     </div>
     <div class="partOne">
@@ -49,10 +50,13 @@
           <i class="fa fa-twitter" aria-hidden="true"></i>
         </button>
         <button class="instagram">
-            <a href="https://www.instagram.com/phoenix_esgee/" target="_blank" rel="noopener noreferrer">
-                <i class="fa fa-instagram" aria-hidden="true"></i>
-
-            </a>
+          <a
+            href="https://www.instagram.com/phoenix_esgee/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+          </a>
         </button>
         <button id="btn" class="facebook">
           <i class="fa fa-facebook fa-align-center" aria-hidden="true"></i>
@@ -96,15 +100,18 @@
         participating?
       </h1>
       <form>
-        <input type="text" name="firstname" placeholder="First Name"/>
-        <input type="text" name="lastname" placeholder="Last Name"/>
+        <input type="text" name="firstname" placeholder="First Name" required />
+        <input type="text" name="lastname" placeholder="Last Name" required />
         <input type="email" name="email" placeholder="Email" />
-        <input type="text" name="teamname" placeholder="Team Name"/>
-        <input type="text" name="message" placeholder="Type a message"/>
-        <!-- <div class="side">
-        </div> -->
-        <input type="tel" name="phone" placeholder="Phone"/>
-        <input type="submit" id="sub" value="Send">
+        <input type="text" name="teamname" placeholder="Team Name" required />
+        <input
+          type="text"
+          name="message"
+          placeholder="Need a place to stay in ?"
+          required
+        />
+        <input type="tel" name="phone" placeholder="Phone" />
+        <input type="submit" id="sub" value="Send" />
       </form>
     </div>
     <footer>
